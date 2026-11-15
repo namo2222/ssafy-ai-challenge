@@ -1,0 +1,13 @@
+# Google Colab GPU 환경 기준. PyTorch는 CUDA 환경에 맞춰 별도 설치 권장.
+transformers==4.57.0
+accelerate>=1.0.0
+peft>=0.13.2,<0.19
+huggingface_hub>=0.25.0,<1.0
+qwen_vl_utils>=0.0.14
+pandas==2.2.2
+numpy
+pillow==11.3.0
+easyocr==1.7.2
+tqdm
+psutil
+matplotlib
